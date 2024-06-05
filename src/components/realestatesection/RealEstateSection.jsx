@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
-// import MySwiperComponent from "../myswipercomponent/MySwiperComponent";
+import MySwiperComponent from "../myswipercomponent/MySwiperComponent";
 import ContactForm from "../contactform/ContactForm";
 
 const RealEstateSection = () => {
@@ -26,9 +26,9 @@ const RealEstateSection = () => {
           </Text>
         </VStack>
       </Box>
-      {/* <Box>
+      <Box>
         <MySwiperComponent />
-      </Box> */}
+      </Box>
       <Box>
         <ContactForm />
       </Box>

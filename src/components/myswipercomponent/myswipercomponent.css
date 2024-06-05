@@ -1,0 +1,48 @@
+.slider-container {
+    position: absolute;
+    width: 47%;
+    margin-left: 49px;
+  }
+  
+  .swiper {
+    width: 100%;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next::after {
+    font-size: 18px;
+    color: gray;
+  }
+  .swiper-button-prev {
+    left: 17px;
+  }
+  
+  .swiper-button-next {
+    right: 30px;
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slide-circle {
+    position: absolute;
+    bottom: 87%;
+    right: -10px;
+  }
+  
