@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './components/header/Header'; 
+import Header from './components/header/Header' 
 import Navbar from './components/navbar/Navbar'
+import RealEstateSection from './components/realestatesection/RealEstateSection'
 
 const App = () => {
   return (
     <div>
       <Header />
       <Navbar/>
+      <RealEstateSection />
     </div>
   );
 };

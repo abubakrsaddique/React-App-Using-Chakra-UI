@@ -5,7 +5,7 @@ import Rezila from "../../images/rezila.png";
 
 function Navbar() {
   return (
-    <Box as="nav" position="absolute" mt="5%"  w="100%">
+    <Box as="nav" position="absolute" mt="-10%"  w="100%">
       <Flex justify="space-between" align="center" w="100%">
         <Flex align="center" ml="50px">
           <Button variant="ghost" fontSize="16px" fontWeight="500">
