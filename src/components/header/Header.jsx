@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Flex, Text, Icon } from '@chakra-ui/react';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
-import "./header.css";
 
 const Header = () => {
   return (
