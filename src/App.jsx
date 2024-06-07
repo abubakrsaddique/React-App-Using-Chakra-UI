@@ -1,20 +1,20 @@
 import React from 'react';
 import Header from './components/header/Header' 
-import Navbar from './components/navbar/Navbar'
-import RealEstateSection from './components/realestatesection/RealEstateSection'
-import CardComponent from './components/cardcomponent/CardComponent'
-import MarqueeComponent from './components/marqueecomponent/MarqueeComponent'
-import About from './components/About/About'
+// import Navbar from './components/navbar/Navbar'
+// import RealEstateSection from './components/realestatesection/RealEstateSection'
+// import CardComponent from './components/cardcomponent/CardComponent'
+// import MarqueeComponent from './components/marqueecomponent/MarqueeComponent'
+// import About from './components/About/About'
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Navbar/>
+      {/* <Navbar/>
       <RealEstateSection />
       <CardComponent />
-      <MarqueeComponent />
-      <About/>
+      <MarqueeComponent /> */}
+      {/* <About/> */}
     </div>
   );
 };
