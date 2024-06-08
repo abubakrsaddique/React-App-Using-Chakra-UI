@@ -89,7 +89,7 @@ function Navbar() {
             </Text>
           </Button>
         </Flex>
-        <Icon as={HiMenu} w={8} h={8} onClick={onOpen} display={{ base: "block", md: "none" }} mt="-77%" ml="87%" />
+        <Icon as={HiMenu} w={8} h={8} onClick={onOpen} display={{ base: "block", md: "none" }} mt="-25%" ml="87%" />
       </Flex>
 
       <Modal isOpen={isOpen} onClose={onClose}>
