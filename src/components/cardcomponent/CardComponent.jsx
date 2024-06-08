@@ -4,9 +4,9 @@ import ImageSrc from '../../images/card2.png';
 
 const CardComponent = () => {
   return (
-    <Box marginTop="-60px" marginLeft="44%">
-      <Flex justifyContent="center" gridTemplateColumns="repeat(4, minmax(0, 1fr))" gridGap="30px" marginRight="100px">
-        <Box gridColumn="span 2 / span 2" display="flex" justifyContent="flex-end">
+    <Box marginTop={{ base: "0px", md: "-54px" }} marginLeft={{ base: "75px", md: "45%" }} >
+      <Flex flexDirection={{ base: "column", md: "row" }} justifyContent="center" gridGap="50px" marginRight={{ base: "62px", md: "100px" }} marginTop={{base: "103%" , md:"0"}}>
+        <Box width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
           <Box
             background="white"
             borderRadius="50px"
@@ -19,13 +19,13 @@ const CardComponent = () => {
             display="flex"
             data-aos="fade-right"
           >
-            <Heading as="h1" fontSize="20px" lineHeight="28px" fontWeight="500" paddingLeft="8px">
+            <Heading as="h1" fontSize={{ base: "16px", md: "20px" }} lineHeight={{ base: "24px", md: "28px" }} fontWeight="500" paddingLeft="8px">
               72k+ Happy <br />
               Customers
             </Heading>
           </Box>
         </Box>
-        <Box gridColumn="span 2 / span 2" display="flex" alignItems="center">
+        <Box width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
           <Box
             background="white"
             borderRadius="50px"
@@ -39,7 +39,7 @@ const CardComponent = () => {
             data-aos="fade-left"
           >
             <Image src={ImageSrc} height="auto" maxWidth="100%" />
-            <Heading as="h1" fontSize="20px" lineHeight="28px" fontWeight="500" paddingLeft="9px">
+            <Heading as="h1" fontSize={{ base: "16px", md: "20px" }} lineHeight={{ base: "24px", md: "28px" }} fontWeight="500" paddingLeft="9px">
               200+ New <br />
               Listings Everyday!
             </Heading>

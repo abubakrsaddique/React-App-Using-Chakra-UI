@@ -95,7 +95,6 @@ function Navbar() {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Menu</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose}>
