@@ -34,9 +34,9 @@ const RealEstateSection = () => {
       <Box>
         <MySwiperComponent />
       </Box>
-      {/* <Box>
+      <Box>
         <ContactForm />
-      </Box> */}
+      </Box>
     </Box>
   );
 };

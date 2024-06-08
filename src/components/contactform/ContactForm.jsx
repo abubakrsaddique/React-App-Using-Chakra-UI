@@ -7,15 +7,16 @@ const ContactForm = () => {
       display="flex"
       justifyContent="center"
       alignItems="center"
-      marginLeft="47%"
-      marginTop="-208px"
+      marginLeft={{ base: "0", md: "47%" }} 
+      marginTop={{ base: "65%", md: "-208px" }} 
     >
       <Box
         bg="white"
         borderRadius="30px"
         boxShadow="10px 30px 50px rgba(0, 0, 0, 0.05)"
-        height="582px"
-        width="420px"
+        height="auto" 
+        maxWidth="420px"
+        width={{ base: "100%", md: "420px" }}
         padding="29px 20px"
       >
         <VStack spacing="20px">
@@ -25,7 +26,7 @@ const ContactForm = () => {
           <Center>
             <Divider width="344px" borderColor="rgb(58, 12, 163)" borderWidth="1px" />
           </Center>
-          <Divider width="420px" />
+          <Divider width="111%"/>
           <VStack spacing="15px" width="100%" mt="15px">
             <Input
               type="text"
@@ -53,7 +54,6 @@ const ContactForm = () => {
               height="59px"
               paddingLeft="20px"
               paddingRight="25px"
-              mt="10px"
               _focus={{ outline: "none" }}
             />
             <Textarea
@@ -67,7 +67,6 @@ const ContactForm = () => {
               padding="25px 20px"
               resize="none"
               height="150px"
-              mt="10px"
               _focus={{ outline: "none" }}
             />
             <Button
@@ -79,7 +78,6 @@ const ContactForm = () => {
               fontWeight="500"
               height="60px"
               width="100%"
-              mt="20px"
               _hover={{ bg: "#6d28d9" }}
             >
               Submit
