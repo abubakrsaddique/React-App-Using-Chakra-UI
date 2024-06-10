@@ -25,7 +25,7 @@ const CardComponent = () => {
             </Heading>
           </Box>
         </Box>
-        <Box width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
+        <Box mt={{base:"-20px" , md:"auto"}} width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
           <Box
             background="white"
             borderRadius="50px"
