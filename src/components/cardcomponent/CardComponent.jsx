@@ -5,8 +5,8 @@ import ImageSrc from '../../images/card2.png';
 const CardComponent = () => {
   return (
     <Box marginTop={{ base: "0px", md: "-57px" }} marginLeft={{ base: "75px", md: "45%" }} >
-      <Flex flexDirection={{ base: "column", md: "row" }} justifyContent="center" gridGap="50px" marginRight={{ base: "62px", md: "100px" }} marginTop={{base: "103%" , md:"0"}}>
-        <Box width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
+      <Flex flexDirection={{ base: "column", md: "row" }} justifyContent="center" gridGap="50px" marginRight={{ base: "132px", md: "100px" }} marginTop={{base: "103%" , md:"0"}}>
+        <Box ml={{base:"-1px" , md:"auto"}} mt={{base: "25px" , md:"auto"}} width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
           <Box
             background="white"
             borderRadius="50px"
@@ -25,7 +25,7 @@ const CardComponent = () => {
             </Heading>
           </Box>
         </Box>
-        <Box mt={{base:"-20px" , md:"auto"}} width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
+        <Box ml={{base:"32px" , md:"auto"}} mt={{base:"-20px" , md:"auto"}} width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
           <Box
             background="white"
             borderRadius="50px"
