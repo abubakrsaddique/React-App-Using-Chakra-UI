@@ -19,8 +19,8 @@ const moveRightToLeft = keyframes`
 const MarqueeComponent = () => {
   return (
     <Box w="100%">
-      <Box pb="80px" w="100%" position="relative">
-        <Box position="absolute" left="15%" top="-12%">
+      <Box pb={{ base: "40px", md: "80px" }} w="100%" position="relative">
+        <Box display={{ base: "none", md: "block" }} position="absolute" left="26%" top="-3%">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="101"
@@ -53,35 +53,35 @@ const MarqueeComponent = () => {
         </Box>
         <Text
           color="gray.500"
-          fontSize="16px"
-          lineHeight="24px"
+          fontSize={{ base: "16px", md: "16px" }}
+          lineHeight={{ base: "20px", md: "24px" }}
           textAlign="center"
-          pt="78px"
-          fontWeight="500"
-          mb="16px"
-          ml="330px"
+          pt={{ base: "40px", md: "78px" }}
+          fontWeight={{ base: "600", md: "500" }}
+          mb={{ base: "8px", md: "16px" }}
+          ml={{ base: "0", md: "330px" }}
         >
           Trusted by 100+ Companies across the globe
         </Text>
-        <Flex justifyContent="center" pt="46px" ml="0%" overflow="hidden" w="134%">
-          <Flex animation={`${moveRightToLeft} 20s linear infinite`}>
-            <Box mx="15px">
-              <Image src={Google} alt="" height="6vh" />
+        <Flex justifyContent="center" pt={{ base: "46px", md: "46px" }} ml="0%" overflow="hidden" w="100%">
+          <Flex animation={`${moveRightToLeft} 20s linear infinite`} minW={{ base: "220%", md: "100%" }}>
+            <Box mx={{ base: "10px", md: "15px" }}>
+              <Image src={Google} alt="Google" height={{ base: "6vh", md: "6vh" }} />
             </Box>
-            <Box mx="15px">
-              <Image src={Amazon} alt="" height="6vh" />
+            <Box mx={{ base: "10px", md: "15px" }}>
+              <Image src={Amazon} alt="Amazon" height={{ base: "6vh", md: "6vh" }} />
             </Box>
-            <Box mx="15px">
-              <Image src={Logitech} alt="" height="6vh" />
+            <Box mx={{ base: "10px", md: "15px" }}>
+              <Image src={Logitech} alt="Logitech" height={{ base: "6vh", md: "6vh" }} />
             </Box>
-            <Box mx="15px">
-              <Image src={Netflix} alt="" height="6vh" />
+            <Box mx={{ base: "10px", md: "15px" }}>
+              <Image src={Netflix} alt="Netflix" height={{ base: "6vh", md: "6vh" }} />
             </Box>
-            <Box mx="15px">
-              <Image src={Samsung} alt="" height="6vh" />
+            <Box mx={{ base: "10px", md: "15px" }}>
+              <Image src={Samsung} alt="Samsung" height={{ base: "6vh", md: "6vh" }} />
             </Box>
-            <Box mx="15px">
-              <Image src={Spotify} alt="" height="6vh" />
+            <Box mx={{ base: "10px", md: "15px" }}>
+              <Image src={Spotify} alt="Spotify" height={{ base: "6vh", md: "6vh" }} />
             </Box>
           </Flex>
         </Flex>

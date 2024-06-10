@@ -4,7 +4,7 @@ import ImageSrc from '../../images/card2.png';
 
 const CardComponent = () => {
   return (
-    <Box marginTop={{ base: "0px", md: "-54px" }} marginLeft={{ base: "75px", md: "45%" }} >
+    <Box marginTop={{ base: "0px", md: "-57px" }} marginLeft={{ base: "75px", md: "45%" }} >
       <Flex flexDirection={{ base: "column", md: "row" }} justifyContent="center" gridGap="50px" marginRight={{ base: "62px", md: "100px" }} marginTop={{base: "103%" , md:"0"}}>
         <Box width={{ base: "100%", md: "auto" }} gridColumn={{ base: "span 4", md: "span 2" }} display="flex" justifyContent="center">
           <Box
