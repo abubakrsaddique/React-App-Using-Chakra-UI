@@ -47,9 +47,9 @@ function Navbar() {
           </Button>
         </Flex>
 
-        <Flex justify="center" align="center" mr="15%" display={{ base: "none", md: "flex" }}>
-          <Image src={Rezila} maxW="90%" />
-        </Flex>
+        <Flex justify="center" align="center" mr={{ base: "0", md: "15%" }} p={{ base: "4", md: "0" }}>
+        <Image src={Rezila} maxW={{ base: "70%", md: "90%" }} />
+      </Flex>
 
         <Flex align="center" mr="5%" display={{ base: "none", md: "flex" }}>
           <Flex align="center" mr={6}>
