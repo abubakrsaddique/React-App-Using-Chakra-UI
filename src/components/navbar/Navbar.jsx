@@ -47,9 +47,9 @@ function Navbar() {
           </Button>
         </Flex>
 
-        <Flex justify="center" align="center" mr={{ base: "0", md: "15%" }} p={{ base: "4", md: "0" }}>
-        <Image src={Rezila} maxW={{ base: "70%", md: "90%" }} />
-      </Flex>
+        <Flex justify="center" align="center" mt={{base : "-78px" , md :"auto"}} mr={{ base: "0", md: "15%" }} p={{ base: "4", md: "0" }}>
+          <Image src={Rezila} maxW={{ base: "100%", md: "90%" }} alt="Rezila" />
+        </Flex>
 
         <Flex align="center" mr="5%" display={{ base: "none", md: "flex" }}>
           <Flex align="center" mr={6}>
@@ -89,7 +89,7 @@ function Navbar() {
             </Text>
           </Button>
         </Flex>
-        <Icon as={HiMenu} w={8} h={8} onClick={onOpen} display={{ base: "block", md: "none" }} mt="-25%" ml="87%" />
+        <Icon as={HiMenu} w={8} h={8} onClick={onOpen} display={{ base: "block", md: "none" }} mt="-22%" mr="4%" />
       </Flex>
 
       <Modal isOpen={isOpen} onClose={onClose}>
@@ -97,24 +97,24 @@ function Navbar() {
         <ModalContent>
           <ModalCloseButton />
           <ModalBody>
-            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose}>
+            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose} pt={{base:"50px"}}>
               Home
             </Button>
-            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose}>
+            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose} pt={{base:"50px"}}>
               About
             </Button>
-            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose}>
+            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose} pt={{base:"50px"}}>
               Listings
             </Button>
-            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose}>
+            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose} pt={{base:"50px"}}>
               Services
             </Button>
-            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose}>
+            <Button variant="ghost" fontSize="16px" fontWeight="500" onClick={onClose} pt={{base:"40px"}}>
               Blogs
             </Button>
-            <Flex align="center" mt={4}>
+            <Flex align="center" mt="34px">
               <Icon as={MdAccountCircle} w={7} h={7} />
-              <Text ml={2} fontSize="15px" fontWeight="500">
+              <Text ml={2} fontSize="16px" fontWeight="500">
                 Login/Register
               </Text>
             </Flex>
@@ -126,6 +126,8 @@ function Navbar() {
                 padding: "10px 26px",
                 display: "flex",
                 alignItems: "center",
+                marginLeft: "50%",
+                marginTop: "-9%"
               }}
               onClick={onClose}
             >
