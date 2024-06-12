@@ -26,12 +26,20 @@ https://github.com/abubakrsaddique/React-App-Using-Chakra-UI/assets/141554894/ba
    ```shell
    npm install
 
-4. Start the development server:
+4. Install Chakra Ui
+     ```shell
+     npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+     
+5. Install React Fast Marquee
+     ```shell
+     npm install react-fast-marquee --save
+
+6. Start the development server:
  
    ```shell
    npm run dev
    
-6. Open your browser and navigate to  http://localhost:5173/ to view the application.
+7. Open your browser and navigate to  http://localhost:5173/ to view the application.
 
 
 ## Author
