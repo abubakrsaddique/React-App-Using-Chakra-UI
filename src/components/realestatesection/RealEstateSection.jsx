@@ -9,7 +9,7 @@ const RealEstateSection = () => {
       bgGradient="linear(180deg, rgba(76, 201, 240, 0), rgba(67, 97, 238, 0.3))"
       borderRadius="0 0 800px 800px"
       height={{ base: "800px", md: "760px" }} 
-      width={{ base: "100%", md: "134%" }} 
+      width={{ base: "100%", md: "100%" }} 
       padding="0"
       margin="0"
     >

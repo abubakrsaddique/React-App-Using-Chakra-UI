@@ -23,11 +23,11 @@ const About = () => {
   }, []);
 
   return (
-    <Box maxW="852px" mx="auto">
-      <Flex  mt={{ base: "135px", lg: "-495px" }} direction={{ base: "column", lg: "row" }} align="center" justify="center" gap="16px">
+    <Box maxW="1280px" mx="auto">
+      <Flex  mt={{ base: "135px", lg: "-810px" }} direction={{ base: "column", lg: "row" }} align="center" justify="center" gap="16px">
         {/* Left Side */}
         <Flex direction="column" align={{ base: "center", lg: "flex-start" }} flex="3" mt={{ base: "0", lg: "63%" }} >
-          <Box w={{ base: "70%", lg: "75%" }} ml={{ lg: "38px" }} mr={{base :"40px"}}>
+          <Box w={{ base: "70%", lg: "75%" }} ml={{ lg: "100px" }} mr={{base :"40px"}}>
             <Heading color="blue.500" fontSize="20px" fontWeight="500" >WHO ARE WE</Heading>
             <Heading color="gray.800" fontSize={{ base: "40px", lg: "40px" }} fontWeight="600" lineHeight={{ base: "47px", lg: "47px" }} my="24px" >
               Assisting individuals in locating the appropriate real estate.
@@ -43,7 +43,7 @@ const About = () => {
               data-aos="fade-right"
               mx={{ base: "auto", lg: "0" }}
             >
-              <Flex align="center" pb={{base:"20px" , lg:"16px"}} pl={{base:"20px" , lg:"24px"}} pt={{base:"20px" ,lg:"16px"}} pr={{base:"20px" ,lg:"24px"}} mt={{base : "20px" , lg:"20px"}}>
+              <Flex align="center" pb={{base:"20px" , lg:"16px"}} pl={{base:"20px" , lg:"24px"}} pt={{base:"20px" ,lg:"16px"}} pr={{base:"20px" ,lg:"24px"}} mt={{base : "20px" , lg:"46px"}}>
                 <Icon as={FaCircle} boxSize="40px" color="blue.500" />
                 <Box ml="16px">
                   <Heading fontSize="20px" fontWeight="500" color="blue.500">Donec porttitor euismod</Heading>
@@ -59,7 +59,7 @@ const About = () => {
               data-aos="fade-right"
               mx={{ base: "auto", lg: "0" }}
             >
-              <Flex align="center" pb={{base:"20px" ,lg:"16px"}} pl={{base:"20px" , lg:"24px"}} pt={{base:"20px" ,lg:"16px"}} pr={{base:"20px" , lg:"24px"}}>
+              <Flex align="center" mb={{lg:"-25px"}} pb={{base:"20px" ,lg:"16px"}} pl={{base:"20px" , lg:"24px"}} pt={{base:"20px" ,lg:"16px"}} pr={{base:"20px" , lg:"24px"}}>
                 <Icon as={FaCircle} boxSize="40px" color="blue.500" />
                 <Box ml="16px">
                   <Heading fontSize="20px" fontWeight="500" color="blue.500">Donec porttitor euismod</Heading>
@@ -71,7 +71,7 @@ const About = () => {
         </Flex>
 
         {/* Right Side */}
-        <Flex direction="column" align="center" flex="1" pb="55px" mt={{ base: "5px", lg: "-43px" }}>
+        <Flex direction="column" align="center" flex="1" pb="55px" mt={{ base: "5px", lg: "219px" }} mr={{base:"0" , lg:"363px"}}>
           <Box position="relative" zIndex="1" mt={{ base: "20px", lg: "327%" }}>
             <Image
              marginLeft={{base :"3%" , lg:"60%"}}
